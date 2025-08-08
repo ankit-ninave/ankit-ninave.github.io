@@ -165,3 +165,22 @@
 .card-content {
   text-align: center;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .contact-section .contact-container .left .lets-talk{
+    font-size: 3.3rem;
+    color: #40c4ff;
+    margin-bottom: 1rem !important;
+    animation: _ngcontent-ng-c982563969_fadeInUp 1s ease-in-out;
+}
+
+
+.contact-section .contact-container .right .download-btn{
+    padding: 0.2rem 0.5rem !important;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-2x {
+    font-size: 1em !important;
+}
+}
