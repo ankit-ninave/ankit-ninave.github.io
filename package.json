@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:techfolio": "node dist/techfolio/server/server.mjs"
+    "serve:ssr:techfolio": "node dist/techfolio/server/server.mjs",
+    "vercel-build": "ng build --configuration production --base-href ./"
   },
   "private": true,
   "dependencies": {

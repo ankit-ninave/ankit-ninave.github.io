@@ -2,13 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/techfolio/browser/**/*",
-      "use": "@vercel/static"
+      "src": "angular.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/techfolio/browser" }
     }
   ],
   "routes": [
     {
-      "src": "/.*",
+      "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
