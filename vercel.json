@@ -8,12 +8,7 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-    "rewrites": [
-    { "source": "/google7c836a995672147b.html", "destination": "/google7c836a995672147b.html" }
+    { "src": "/google7c836a995672147b.html", "dest": "/google7c836a995672147b.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
