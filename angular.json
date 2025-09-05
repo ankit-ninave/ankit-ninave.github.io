@@ -28,7 +28,8 @@
             "assets": [
               "src/assets",
               "src/favicon.ico",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/google7c836a995672147b.html"
             ],
             "styles": [
               "src/styles.scss"
