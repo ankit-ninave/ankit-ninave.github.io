@@ -12,5 +12,8 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
+  ],
+    "rewrites": [
+    { "source": "/google7c836a995672147b.html", "destination": "/google7c836a995672147b.html" }
   ]
 }
